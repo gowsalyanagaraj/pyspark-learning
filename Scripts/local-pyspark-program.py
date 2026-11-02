@@ -11,7 +11,11 @@ print("Spark version:", spark.version)
 data = [("Alice", 34), ("Bob", 45), ("Cathy", 29)]
 
 df = spark.createDataFrame(data, ["name", "age"])
+adults = df.filter(df.age >= 30)
 
 df.show()
+adults.show()
+
+input("Press Enter to stop the Spark session...")
 
 spark.stop()
