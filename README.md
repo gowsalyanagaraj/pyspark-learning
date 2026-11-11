@@ -87,18 +87,6 @@ This repository supports my learning and practice across topics such as:
 
 5. Open the scripts or notebooks and run the examples in your local Python environment or Databricks workspace, as applicable.
 
-## Repository Goals
-
-- Build a strong foundation in Apache Spark and PySpark.
-- Practise data processing using Spark DataFrames and Spark SQL.
-- Understand how Spark works in local and Databricks environments.
-- Maintain practical examples and notes for future reference.
-- Strengthen the skills needed for data engineering.
-
-## Progress
+## Note
 
 This repository is continuously updated as I learn new concepts and complete more exercises.
-
----
-
-**Learning by building, practising, and exploring data with PySpark.**
